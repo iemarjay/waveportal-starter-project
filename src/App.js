@@ -1,5 +1,5 @@
 import * as React from "react";
-import { ethers } from "ethers";
+// import { ethers } from "ethers";
 import './App.css';
 import {useEffect, useState} from "react";
 
@@ -59,7 +59,7 @@ export default function App() {
 
         <div className="dataContainer">
           <div className="header">
-            👋 Hey there!
+            <span role="img" aria-label="hand">👋</span> Hey there!
           </div>
 
           <div className="bio">
